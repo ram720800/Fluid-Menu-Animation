@@ -1,7 +1,7 @@
 const text = "Fluid Menu Animation";
 const Content = () => {
   return (
-    <div className="absolute inset-0 text-bl1 text-6xl font-extrabold flex justify-center items-center max-sm:text-2xl">
+    <div className="absolute inset-0 text-bl1 text-6xl font-extrabold flex justify-center items-center max-sm:text-xl">
       {text.split("").map((l, i) => {
         return (
           <span
